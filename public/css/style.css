@@ -1,0 +1,738 @@
+@charset "utf-8";
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 100;
+}
+
+#wrapper {
+    display: none;
+}
+
+#input {
+    color: black;
+    background-color: #e6e6e6;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+#output {
+    background-color: #e6ffe6;
+    border-radius: 10px;
+}
+
+.kontaktMobil {
+    display: none;
+}
+
+.bildebakgrunn {
+    position: relative;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    background-size: cover;
+    height: 780px;
+    background-color: #232323;
+}
+
+.velkommen {
+    padding-top: 80px;
+    position: absolute;
+    z-index: 1;
+    height: 300px;
+    width: 100%;
+    margin-top: 190px;
+    font-size: 50px;
+    background: #232323;
+    opacity: 1;
+    text-align: center;
+    font-family: montserrat;
+    clear: both;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFD4D4;
+}
+
+.velkommen:hover {
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+.velkommen p {
+    font-size: 25px;
+}
+
+.tekstboble {
+    text-align: center;
+}
+
+.tekstboble img {
+    width: 250px;
+    margin: 10px;
+    margin-left: 100px;
+    margin-top: 75px;
+}
+
+.tekstboble2 img {
+    width: 250px;
+    margin: 10px;
+    margin-left: 100px;
+    margin-top: 75px;
+}
+
+.mellomdiv {
+    height: 300px;
+    font-size: 90px;
+    background: #232323;
+    text-align: center;
+    font-family: montserrat;
+    clear: both;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 300px;
+}
+
+.mellomdivtekst {
+    color: #FFD4D4;
+}
+
+#logoLi .logobilde img {
+    margin-top: 15px;
+    width: 80px;
+    height: 80px;
+}
+
+#logoLi {
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+#logoLi .logobilde img:hover {
+    opacity: 0.5;
+}
+
+.dropdown #menyen img:hover {
+    opacity: 0.5;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top {
+    list-style-type: none;
+    width: 170px;
+    border-right: medium solid #ccffcc;
+    border-bottom-style: hidden;
+    height: 190px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#menyen {
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-left: 35px;
+    color: #FFD4D4;
+    background-color: transparent;
+    border-style: none;
+}
+
+#menyLinkene {
+    width: 170px;
+    border-right: medium solid #ccffcc;
+    background-color: #FFD4D4;
+    font-family: montserrat;
+}
+
+#menyLinkene li a:hover {
+    background-color: #ffb3b3;
+    transition: 0.4s;
+}
+
+.scrollspy #myScrollspy .nav.nav-pills.nav-stacked {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 50px;
+}
+
+.nav.nav-pills.nav-stacked .active a {
+    background-color: transparent;
+}
+
+.nav.nav-pills.nav-stacked a:hover {
+    background-color: transparent;
+}
+
+.scrollspy {
+    position: relative;
+    z-index: 2;
+    margin-right: 70px;
+    float: right;
+}
+
+.scrollspybilde {
+    opacity: 0.5;
+    width: 50;
+    height: 50px;
+    margin-bottom: 8px;
+}
+
+.scrollspybilde:hover {
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.active a .scrollspybilde {
+    opacity: 1;
+}
+
+#myScrollspy .scrollspynav ul {
+    margin: 0;
+}
+
+.bobleMobil {
+    text-align: center;
+}
+
+.bobleStor {
+    text-align: center;
+}
+
+.popup {
+    position: fixed;
+    left: 34vw;
+    margin-left: 40px;
+    top: 24vh;
+    margin-top: -195px;
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+#frostPopup {
+    height: 250px;
+    width: 380px;
+    margin-left: -250px;
+    margin-top: 10px;
+}
+
+#snakkebobleFrost {
+    height: 250px;
+    width: 380px;
+}
+
+#snakkebobleFrostMobil {
+    margin-top: 250px;
+    margin-left: -200px;
+    height: 250px;
+    width: 380px;
+}
+
+#snakkebobleDaisies {
+    height: 280px;
+    width: 420px;
+    margin-left: -250px;
+}
+
+#snakkebobleDaisiesMobil {
+    height: 230px;
+    width: 300px;
+}
+
+.popup div {
+    width: 520px;
+    font-size: 20px;
+}
+
+.popup div {
+    text-align: center;
+}
+
+.button {
+    top: 60vh;
+    margin-top: 500px;
+    left: 60vw;
+    margin-left: 180px;
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+    font-size: 20px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+#button1 {
+    margin-top: 520px;
+    margin-left: 230px;
+}
+
+#theEndStorButton {
+    margin-top: 520px;
+}
+
+#februarButton {
+    margin-top: 500px;
+    margin-left: 230px;
+}
+
+#februarPopup {
+    margin-left: 550px;
+    margin-top: -100px;
+}
+
+#lamaButton {
+    margin-top: 500px;
+    margin-left: 130px;
+}
+
+#istidButton {
+    top: 60vh;
+    margin-top: 490px;
+    left: 60vw;
+    margin-left: -1140px;
+}
+
+#frostButton {
+    margin-top: 500px;
+    margin-left: 130px;
+}
+
+.button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#istidStor {
+    height: 330px;
+    width: 450px;
+}
+
+#istid {
+    height: 350px;
+    width: 480px;
+    margin-bottom: 80px;
+}
+
+#mulanBilde {
+    height: 350px;
+    width: 480px;
+}
+
+#mulanBildeStor {
+    height: 350px;
+    width: 480px;
+}
+
+#lamaStor {
+    height: 350px;
+    width: 480px;
+}
+
+#lamaMobil {
+    height: 250px;
+    width: 380px;
+}
+
+#lionMobil {
+    height: 250px;
+    width: 380px;
+}
+
+#lionStor {
+    height: 350px;
+    width: 480px;
+}
+
+#theEndMobil {
+    height: 250px;
+    width: 380px;
+}
+
+#theEndStor {
+    height: 350px;
+    width: 480px;
+}
+
+.button:hover~.popup {
+    margin-left: 85px;
+    margin-top: -220px;
+    opacity: 1;
+}
+
+.bobleMobil {
+    display: none;
+}
+
+.bobleStor .button .glyphicon.glyphicon-plus {
+    color: #ccffcc;
+}
+
+.nav.navbar-nav li .fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.nav.navbar-nav li .fa:hover {
+    opacity: 0.2;
+    text-decoration: none;
+}
+
+#kontaktOss {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.kontakt {
+    float: left;
+    height: 250px;
+    width: 50%;
+    font-size: 40px;
+    background: #232323;
+    padding-left: 80px;
+}
+
+.kontaktTekst {
+    color: #FFFFFF;
+    padding-left: 90px;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.chatbot {
+    background: #232323;
+    width: 100%;
+    height: 700px;
+}
+
+.chat {
+    background: #f5f5f5;
+    padding: 5px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.chatbot .col-sm-4.col-sm-offset-3.chat h1 {
+    background-color: #FFD4D4;
+    border-radius: 8px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#chatboble {
+    position: relative;
+    margin-left: 100px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/chatboble.png);
+    background-repeat: no-repeat;
+}
+
+.media {
+    padding: 15px 15px 1px 15px;
+}
+
+.media .media-right .glyphicon.glyphicon-user {
+    font-size: 3em;
+}
+
+#spm {
+    margin-top: 5px;
+    border-color: rgb(179, 255, 179);
+}
+
+.btn.btn-secondary {
+    background-color: rgb(204, 255, 204);
+    margin-top: 5px;
+}
+
+.btn.btn-secondary:hover {
+    transition: 0.3s;
+    background-color: rgb(179, 255, 179);
+}
+
+.mellomdiv .mellomdivtekst img {
+    position: static;
+    height: 250px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.chatbot .col-sm-4.col-sm-offset-4.chat {
+    -webkit-box-shadow: 0 0;
+    box-shadow: 0 0;
+}
+
+.venter:after {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    -webkit-animation: ellipsis steps(4, end) 1200ms infinite;
+    animation: ellipsis steps(4, end) 1200ms infinite;
+    content: "\2026";
+    /* ascii code for the ellipsis character */
+    width: 0px;
+}
+
+.row.content {
+    height: 1650px;
+}
+
+.container-fluid.text-center h1 {
+    margin-top: 50px;
+    font-family: montserrat;
+}
+
+.container-fluid.text-center .row.content .col-sm-2.sidenav {
+    padding-top: 20px;
+    height: 100%;
+    background-color: #232323;
+}
+
+#mobilFooter {
+    display: none;
+}
+
+.footerLogo {
+    height: 45px;
+    width: 45px;
+    padding-bottom: 5px;
+}
+
+.footerLogo:hover {
+    opacity: 0.5;
+}
+
+.container-fluid div .nav.navbar-nav {
+    float: right;
+}
+
+.nav.navbar-nav li .fa.fa-twitter:hover {
+    color: #55ACEE;
+    transition: 0.3s;
+}
+
+.nav.navbar-nav li .fa.fa-instagram:hover {
+    color: #125688;
+    transition: 0.3s;
+}
+
+.nav.navbar-nav li .fa.fa-snapchat-ghost:hover {
+    color: #fffc00;
+    transition: 0.3s;
+}
+
+.nav.navbar-nav li .fa.fa-facebook:hover {
+    color: #3B5998;
+    transition: 0.3s;
+}
+
+.nav.navbar-nav li .fa.fa-youtube:hover {
+    color: #bb0000;
+    transition: 0.3s;
+}
+
+.nav.navbar-nav li .fa.fa-google:hover {
+    color: #dd4b39;
+    transition: 0.3s;
+}
+
+#wrapper .navbar.navbar-inverse {
+    margin-bottom: 0 !important;
+    border-radius: 0;
+}
+
+#papillon {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 280px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.jumbotron {
+    background-color: #232323 !important;
+}
+
+.jumbotron .container.text-center h1 {
+    color: #FFD4D4;
+    font-family: montserrat;
+}
+
+.bildegalleri {
+    margin-bottom: 100px;
+    font-family: montserrat;
+}
+
+.container-fluid.bg-3.text-center .row .col-sm-3:hover {
+    opacity: 0.5;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+.link {
+    font-style: oblique;
+}
+
+.ink:hover {
+    cursor: pointer;
+}
+
+.container-fluid .nav.navbar-nav li {}
+
+.oppgave a {
+    font-size: 0.8em;
+}
+
+@keyframes ellipsis {
+    to {
+        width: 1.25em;
+    }
+}
+
+@-webkit-keyframes ellipsis {
+    to {
+        width: 1.25em;
+    }
+}
+
+@media only screen and (max-width: 747px) {
+    /* For mobile phones: */
+    .navbar.navbar-inverse.navbar-fixed-top {
+        width: 100%;
+        border-style: none;
+        height: 70px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    #logoLi .logobilde img {
+        display: none;
+    }
+    #menyen {
+        margin-left: 15px;
+    }
+    #menyLinkene {
+        width: 100%;
+        border-style: none;
+    }
+    .scrollspy {
+        display: none;
+    }
+    .bildebakgrunn {
+        background-attachment: scroll;
+    }
+    .bildebakgrunn2 {
+        background-attachment: scroll;
+    }
+    .velkommen {
+        opacity: 0.9;
+        margin-top: 200px;
+        font-size: 20px;
+        padding-top: 115px;
+    }
+    .velkommen p {
+        font-size: 15px;
+    }
+    #februar {
+        width: 100%;
+        height: 450px;
+    }
+    #lamabilde {
+        text-align: center;
+        width: 720px;
+        height: 550px;
+    }
+    #mai {
+        width: 100%;
+        height: auto;
+    }
+    #istid {
+        width: 60%;
+        height: auto;
+        clear: none;
+    }
+    .bobleMobil {
+        display: block;
+    }
+    .bobleStor {
+        display: none;
+    }
+    .navbar .navbar-inverse .navbar-fixed-bottom {
+        position: relative;
+    }
+    .navbar .container-fluid>.navbar-header {
+        float: left;
+        margin-right: 10px;
+    }
+    .navbar .navbar-nav {
+        float: left;
+        margin: 10px;
+    }
+    #chatboble {
+        background-image: none;
+        margin-left: 0px;
+    }
+    .chat {
+        background: #f5f5f5;
+        margin-top: 70px;
+        width: 100%;
+        height: auto;
+    }
+    #storFooter {
+        display: none;
+    }
+    #mobilFooter {
+        display: block;
+        margin-bottom: 0 !important;
+        border-radius: 0;
+    }
+    .footerLogo {
+        height: 80px;
+        width: 80px;
+    }
+    .nav>li {
+        float: left;
+    }
+    .container-fluid.text-center .row.content .col-sm-2.sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+    .jumbotron {
+        margin-top: 70px;
+    }
+}
