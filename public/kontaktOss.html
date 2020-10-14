@@ -1,124 +1,158 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>Oppgave 2</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title>Oppgave 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="js/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
-	<script src="js/bot.js"></script>
-	<script>var __adobewebfontsappname__="dreamweaver"</script>
-	<script src="http://use.edgefonts.net/josefin-slab:n1,n7:default;rancho:n4:default;sofia:n4:default;pt-sans:n4:default;montserrat:n4:default;chunk:n4:default.js" type="text/javascript"></script>
+    <script src="js/bot.js"></script>
+    <script>
+        var __adobewebfontsappname__ = "dreamweaver"
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<!-- Nav -->
-      <nav class="navbar navbar-inverse navbar-fixed-top">
+    <!-- Nav -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="dropdown">
-          <!-- Logoen -->
-          <div id="logoLi">
-            <a class="logobilde" href="index.html">
-              <img src="img/logo_rosa.png" alt="logo" />
-            </a>
-          </div>
-		<!-- Menyen -->
-          <button class="dropdown-toggle" id="menyen" type="button" data-toggle="dropdown">
+            <!-- Logoen -->
+            <div id="logoLi">
+                <a class="logobilde" href="index.html">
+                    <img src="img/logo_rosa.png" alt="logo" />
+                </a>
+            </div>
+            <!-- Menyen -->
+            <button class="dropdown-toggle" id="menyen" type="button" data-toggle="dropdown">
             <img src="img/meny.png" width="55" height="40" alt="" />
           </button>
-          		 <ul class="dropdown-menu" id="menyLinkene">
-			<li>
-              <a href="index.html">Forside</a>
-            </li>
-			 <li>
-              <a href="omPrincess.html">Om Papillon</a>
-            </li>
-			<li>
-              <a href="bildegalleri.html">Bildegalleri</a>
-            </li>
-            <li>
-              <a href="kontaktOss.html">Kontakt Princess</a>
-            </li>
-			<li>
-              <a href="../index.html">Hjem til Cecilie</a>
-            </li>
-          </ul>
+            <ul class="dropdown-menu" id="menyLinkene">
+                <li>
+                    <a href="index.html">Forside</a>
+                </li>
+                <li>
+                    <a href="omPrincess.html">Om Papillon</a>
+                </li>
+                <li>
+                    <a href="bildegalleri.html">Bildegalleri</a>
+                </li>
+                <li>
+                    <a href="kontaktOss.html">Kontakt Princess</a>
+                </li>
+                <li>
+                    <a href="../index.html">Hjem til Cecilie</a>
+                </li>
+            </ul>
         </div>
-      </nav>
-<!-- Nav SLUTT-->
+    </nav>
+    <!-- Nav SLUTT-->
 
-<!-- CHATBOT -->	
-<section class="chatbot">
-<div id="chatboble">
- <div class="col-sm-4 chat col-sm-offset-3">
-	<h1>Chat med Princess</h1>
-		<div id="input"></div>
-		<div id="output"></div>
-	<div class="form-group row">
-	  <div class="col-lg-12">
-		  <div class="input-group">
-			  <input type="text" class="form-control" id="spm" placeholder="Spør Princess"><span class="input-group-btn" id=""><span class="glyphicon glyphicon-share-alt"></span>
-			  <button id="myButton" class="btn btn-secondary" type="button" onclick="nyttSvar()">Send</button></span>
-			</div>
-		</div> 
-	</div> 
-	</div>	
-</div>
-</section>
-<!--CHATBOT SLUTT-->
-<!--FOOTER-->
-<nav class="navbar navbar-inverse navbar-fixed-bottom" id="storFooter">
-     <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="index.html" ><img class="footerLogo" src="img/logo_rosa.png" width="50" height="50" alt="" />
-	</a>
-	  </div>
-    <div>
-	
-      <ul class="nav navbar-nav">
-		  <li class="oppgave"><a href="https://www.usn.no/studier/
-			finn-studier/kunst-design-og-musikk/arstudium-i-digital-mediedesign" target="_blank">CECILIE H. RØRÅS - Dette er en studentoppgave ved HSN - Digital Mediedesign</a></li>
-		<li><a href="#" class="fa fa-google"></a></li>
-        <li><a href="#" class="fa fa-twitter"></a></li>
-		  <li><a href="#" class="fa fa-youtube"></a></li>
-        <li><a href="#" class="fa fa-instagram"></a></li>
-        <li> <a href="#" class="fa fa-snapchat-ghost"></a></li>
-		<li><a href="#" class="fa fa-facebook"></a></li>
-	      <li><a href="#"></a></li>
-      </ul>
-    </div>
-	</div>
-</nav>
+    <!-- CHATBOT -->
+    <section class="chatbot">
+        <div id="chatboble">
+            <div class="col-sm-4 chat col-sm-offset-3">
+                <h1>Chat med Princess</h1>
+                <div id="input"></div>
+                <div id="output"></div>
+                <div class="form-group row">
+                    <div class="col-lg-12">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="spm" placeholder="Spør Princess"><span class="input-group-btn" id=""><span class="glyphicon glyphicon-share-alt"></span>
+                            <button id="myButton" class="btn btn-secondary" type="button" onclick="nyttSvar()">Send</button></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--CHATBOT SLUTT-->
+    <!--FOOTER-->
+    <nav class="navbar navbar-inverse navbar-fixed-bottom" id="storFooter">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"><img class="footerLogo" src="img/logo_rosa.png" width="50" height="50" alt="" />
+                </a>
+            </div>
+            <div>
 
-<nav class="navbar navbar-inverse" id="mobilFooter">
-  <div class="container-fluid">
-      <ul class="nav navbar-nav">
-		  <li><a href="index.html"><img class="footerLogo" src="img/logo_rosa.png" width="50" height="50" alt="" /></a></li>
-		 <li class="oppgave"><a href="https://www.usn.no/studier/
+                <ul class="nav navbar-nav">
+                    <li class="oppgave"><a href="https://www.usn.no/studier/
 			finn-studier/kunst-design-og-musikk/arstudium-i-digital-mediedesign" target="_blank">CECILIE H. RØRÅS - Dette er en studentoppgave ved HSN - Digital Mediedesign</a></li>
-       <li><a href="#" class="fa fa-google"></a></li>
-        <li><a href="#" class="fa fa-twitter"></a></li>
-		  <li><a href="#" class="fa fa-youtube"></a></li>
-        <li><a href="#" class="fa fa-instagram"></a></li>
-        <li> <a href="#" class="fa fa-snapchat-ghost"></a></li>
-		<li><a href="#" class="fa fa-facebook"></a></li>
-	      <li><a href="#"></a></li>
-      </ul>
-    </div>
-</nav>	
-<!--FOOTER SLUTT-->	
-<!--Enter-script-->
-<script>
-var inn = document.getElementById("spm");
-inn.addEventListener("keyup", function(event) {
-    event.preventDefault();
-    if (event.keyCode === 13) {
-        document.getElementById("myButton").click();
-    }
-});
-</script>	
+                    <li>
+                        <a href="#" class="fa fa-google"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa fa-twitter"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa fa-instagram"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa fa-snapchat-ghost"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa fa-facebook"></a>
+                    </li>
+                    <li>
+                        <a href="#"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-inverse" id="mobilFooter">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="index.html"><img class="footerLogo" src="img/logo_rosa.png" width="50" height="50" alt="" /></a>
+                </li>
+                <li class="oppgave"><a href="https://www.usn.no/studier/
+			finn-studier/kunst-design-og-musikk/arstudium-i-digital-mediedesign" target="_blank">CECILIE H. RØRÅS - Dette er en studentoppgave ved HSN - Digital Mediedesign</a></li>
+                <li>
+                    <a href="#" class="fa fa-google"></a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-twitter"></a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-youtube"></a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-instagram"></a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-snapchat-ghost"></a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-facebook"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--FOOTER SLUTT-->
+    <!--Enter-script-->
+    <script>
+        var inn = document.getElementById("spm");
+        inn.addEventListener("keyup", function(event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                document.getElementById("myButton").click();
+            }
+        });
+    </script>
 </body>
+
 </html>
