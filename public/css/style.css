@@ -4,7 +4,7 @@ body {
     margin: 0;
     width: 100%;
     height: 100%;
-    font-family: montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 100;
 }
@@ -610,8 +610,6 @@ div.desc {
 .ink:hover {
     cursor: pointer;
 }
-
-.container-fluid .nav.navbar-nav li {}
 
 .oppgave a {
     font-size: 0.8em;
